@@ -1,15 +1,53 @@
-h1, h2 {
-	font-family: "BPG Nostalgia", sans-serif;
+.mysection {
+	width: 100%;
 }
+
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
 h2 {
-	font-size: 28px;
-	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 32px;
 }
+
+.left-card,.right-card {
+	background-color: #F2F2F2;
+	width: 570px;
+	height: 225px;
+
+	display: inline-block;
+	vertical-align: top;
+
+	padding-top: 18px;
+	padding-right: 14px;
+	padding-bottom: 42px;
+	padding-left: 40px;
+}
+.left-card {
+	margin-right: 25px;
+}
+
 h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 50px;
+	font-size: 22px;
+	color: #3D58A6;
+
+	margin-bottom: 20px;
+
 }
-h4 {
-	font-size: 50pxs;
+
+img {
+	display: inline-block;
+	margin-right: 60px;
+	vertical-align: top;
+}
+
+p {
+	font-size: 20px;
+	display: inline-block;
+	width: 350px;
+	height: 143px;
+	vertical-align: top;
 }
